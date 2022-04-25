@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(250, 250, 250);
+    
+}
+.caixinha{
+    background-color: rgb(75, 135, 132);
+    width: 250px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    display: block;
+    margin: 10px;
+
+}
+.botao{
+    background-color: black;
+    color: white;
+    height:33px;
+    width: 80px;
+    margin: 10px;
+    
+}
+div{
+    font-size: 30px;
+    
+}
