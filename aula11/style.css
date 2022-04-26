@@ -1,0 +1,22 @@
+body{
+    font-family: cursive;
+    text-align: center;
+}
+
+.pergunta{
+    font-size: 25px;
+}
+.resposta{
+    margin-top: 22px;
+    font-size: 22px;
+    font-weight: bold;
+}
+input{
+    padding: 8px;
+    margin: 8px 0px 8px 0px;
+    font-family: cursive;
+    
+}
+.botao{
+    background: rgba(78, 143, 255, 0.97);
+}

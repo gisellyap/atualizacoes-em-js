@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NACIONALIDADE</title>
+</head>
+<body>
+    <h1>Descubra se você é estrangeiro</h1>
+    <div class="pergunta">
+    <p>Em qual país você nasceu?</p>
+    <input type="text" id="txtn1">
+    <input class="botao" type="button" value="Ver" onclick="ver()">
+    </div>
+    
+    <div class="resposta" id="res">Resultado...</div>
+    
+    <script>
+        function ver(){
+            var pais= window.document.getElementById('txtn1');
+            var res= window.document.getElementById('res');
+
+            console.log(pais)
+
+            if(pais.value=='brasil'){
+                res.innerHTML="Você é Brasileiro(a)";
+            }else{
+                res.innerHTML="Você é Estrangeiro(a)";
+            }
+
+        }
+    </script>
+</body>
+</html>
